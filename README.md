@@ -18,3 +18,38 @@ If Roll No does not exist, the Save button is enabled, allowing the user to add 
 3. Field Validation: Ensures all fields are filled before saving or updating data.<br>
 4. Form Reset: The Reset button clears the form and reverts it to its initial state.<br>
 5. Database Interaction: The code interacts with the database through a mock API endpoint. You'll need to replace the database check and interaction with a real database API.</h6>
+
+
+<h2>procedure </h2>
+<p> 
+  <h2> Steps to Create a Student Enrollment Form</h3>
+  <h4>1. Requirements Gathering </h4>
+  <p> Before you start developing the form, clarify the following requirements:
+
+Input Fields:<br>
+
+Roll No (Primary Key)<br>
+Full Name<br>
+Class<br>
+Birth Date<br>
+Address<br>
+Enrollment Date<br>
+Primary Key: Roll No (must be unique). <br>
+
+Validation: Ensure that all fields are filled before saving the form.<br>
+
+Buttons:<br>
+
+Save: Save new records.<br>
+Update: Update existing records.<br>
+Reset: Clear the form.<br>
+Back-end: The data should be saved to a database (e.g., MySQL, PostgreSQL) with a table for student enrollment.</p>
+
+
+<h4> 2. Designing the Form</h4>
+<p> <h5>Structure:</h5>
+
+Use HTML to create the basic structure of the form.<br>
+Use CSS (or a framework like Bootstrap) to style the form for a user-friendly experience.<br>
+Use JavaScript (or jQuery) for form validation and controlling button states.</p>
+</p>
